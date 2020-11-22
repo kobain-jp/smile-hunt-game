@@ -1,0 +1,87 @@
+html{
+    height: 100%;
+    cursor: grab;
+}
+
+body{
+    text-align: center;
+    font-size: 40px;
+    color: pink;
+    background:rgb(255, 94, 0);
+}
+
+.start-frame{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    background-color:pink;
+    margin: auto;
+    border-radius: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-target{
+    width: 230px;
+    height: 230px;
+    background-image:url("./image/angry.png");
+    background-size:contain;
+    border-radius: 80px;
+}
+
+.start-target:hover{
+    background-image:url("./image/smile.png");
+}
+
+.game-frames{
+    display: flex;
+    justify-content: center;
+}
+.game-frame{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    background-color:pink;
+    border-radius: 80px;
+}
+
+.game-target{
+    border-radius: 80px;
+    width: 230px;
+    height: 230px;
+    background-image:url("./image/angry.png");
+    background-size:contain;
+}
+
+.game-smile{
+    background-image:url("./image/smile.png");
+}
+
+.hide{
+    display: none;
+}
+
+.bg-angry{
+    background-color: rgb(255, 0, 0);
+}
+
+.bg-happy{
+    background-color:orange;
+}
+.retry-link{
+    position: absolute;
+    top:15px;
+    right:20px;
+    font-size: 20px;
+  
+}
+
+.retry-link:hover{
+    color: brown;
+}

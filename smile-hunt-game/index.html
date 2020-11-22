@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Hunt</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div id="start-screen">
+        <h2>Smile Hunt</h2>
+        <div class="start-frame">
+            <div class="start-target"></div>
+        </div>
+        <h4>click to start</h4>
+    </div>
+    <div id="game-screen" class="hide">
+        <div class="timer"><span class="time">0</span></div>
+        <div class="score"><span class="counter">0</span> smiles</div>
+        <div class=" retry-link">click to retry</div>
+        <div class="game-frames">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="game-frame">
+                                <div id="0" class="game-target hide"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="game-frame">
+                                <div id="1" class=" game-target hide"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="game-frame">
+                                <div id="2" class="game-target hide"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="game-frame">
+                                <div id="3" class="game-target hide"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="game-frame">
+                                <div id="4" class="game-target hide"></div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="game-frame">
+                                <div id="5" class="game-target hide"></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
